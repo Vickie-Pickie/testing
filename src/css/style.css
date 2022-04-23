@@ -1,0 +1,131 @@
+body {
+    color: #333;
+}
+
+.hidden {
+    display: none;
+}
+
+.input {
+    display: inline-block;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+
+.btn {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    border: 1px solid #ced4da;
+}
+
+.contact-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    max-width: 500px;;
+}
+
+
+.contact-list-item:first-child, .contact-list-item:last-child {
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+
+.contact-list-item {
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+}
+
+.contact-main {
+    display: flex;
+    align-items: center;
+}
+
+.contact-list-item-img {
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.contact-list-item-name, .contact-list-item-phone, .contact-list-item-action {
+    margin-right: 1rem;
+}
+
+form {
+  display: flex;
+}
+
+.form-control {
+  margin-right: 10px;
+}
+
+button {
+  margin-right: 10px;
+}
+
+.cards {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-bottom: 10px;
+}
+
+.card {
+  width: 66px;
+  height: 44px;
+  background-size: cover;
+  opacity: 0.25;
+}
+
+.active {
+  opacity: 1;
+}
+
+.visa {
+  background-image: url("../assets/visa.png");
+}
+
+.mastercard {
+  background-image: url("../assets/mastercard.png");
+}
+
+.jcb {
+  background-image: url("../assets/jcb.png");
+}
+
+.amex {
+  background-image: url("../assets/amex.png");
+}
+
+.mir {
+  background-image: url("../assets/mir.png");
+  background-position: center;
+}
+
+.result {
+  display: none;
+}
+
+.success {
+  color: green;
+  display: block;
+}
+
+.error {
+  color: red;
+  display: block;
+}

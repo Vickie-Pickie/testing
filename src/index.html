@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- TODO: comment after component added -->
+    <div class="cards" id="cards">
+      <div class="card visa"></div>
+      <div class="card mastercard"></div>
+      <div class="card amex"></div>
+      <div class="card jcb"></div>
+      <div class="card mir"></div>
+    </div>
+    <form data-widget="card-form-widget" id="payment-form">
+        <div class="form-control">
+            <input id="card-number" type="text">
+        </div>
+        <button data-id="card-submit">Click to validate</button>
+        <div id="validation-result" class="result"></div>
+    </form>
+</body>
+
+</html>
